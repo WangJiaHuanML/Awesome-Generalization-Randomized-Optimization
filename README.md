@@ -16,9 +16,12 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 ![Example](./over.png)
 
 # Bookmarks
-- [Stability Analysis](#Thinking-)
+- [Stability Analysis](#111-)
+- [Information-Theoretic Analysis](#222-)
+- [PAC-Bayes Analysis](#333-)
+- [Algorithm-Dependent Complexity](#444-)
 
-## Stability Analysis <span id="Thinking-">
+## Stability Analysis <span id="111-">
 | Category | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:| ---- |
 |  | 1978 | **A Finite Sample Distribution-free Performance Bound for Local Discrimination Rules** | The Annals of Statistics | [Link](https://projecteuclid.org/journals/annals-of-statistics/volume-6/issue-3/A-Finite-Sample-Distribution-Free-Performance-Bound-for-Local-Discrimination/10.1214/aos/1176344196.full) |
@@ -119,7 +122,7 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 | **Meta-learning** |          |                                                              |                            |                                                              |
 |  | 2005 | **Algorithmic Stability and Meta-Learning** | JMLR | [Link](https://www.jmlr.org/papers/v6/maurer05a.html) |
 |  | 2021 | **On data efficiency of meta-learning** | AISTATS | [Link](https://arxiv.org/abs/2102.00127) |
-|  | 2021 | **Generalization Bounds for Meta-Learning via {PAC}-{B}ayes and Uniform Stability** | NIPS | [Link](https://proceedings.neurips.cc/paper/2021/hash/1102a326d5f7c9e04fc3c89d0ede88c9-Abstract.html) |
+|  | 2021 | **Generalization Bounds for Meta-Learning via PAC-Bayes and Uniform Stability** | NIPS | [Link](https://proceedings.neurips.cc/paper/2021/hash/1102a326d5f7c9e04fc3c89d0ede88c9-Abstract.html) |
 |  | 2021 | **Generalization of Model-Agnostic Meta-Learning Algorithms: Recurring and Unseen Tasks** | NIPS | [Link](https://arxiv.org/abs/2102.03832) |
 |  | 2022 | **Fine-Grained Analysis of Stability and Generalization for Modern Meta Learning Algorithms** | NIPS | [Link](https://proceedings.neurips.cc/paper_files/paper/2022/hash/754e862a9329c5af4c4420d9f2e08c42-Abstract-Conference.html) |
 |  | 2024 | **On the Stability and Generalization of Meta-Learning** | NIPS | [Link](https://proceedings.neurips.cc/paper_files/paper/2024/hash/984fa4634385c48ab3722d825c57ede0-Abstract-Conference.html) |
@@ -158,3 +161,85 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2025 | **Deeper insights into deep graph convolutional networks: Stability and generalization** | TPAMI | [Link](https://doi.org/10.1109/TPAMI.2025.3616350) |
 |  | 2025 | **Adversarial training for graph convolutional networks: stability and generalization analysis** | IJCAI | [Link](https://www.ijcai.org/proceedings/2025/534) |
 |          |          |                                                              |                            |                                                              |
+## Information-Theoretic Analysis <span id="222-">
+| Category | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            |
+| ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:| ---- |
+|  | 1948 | **A mathematical theory of communication** | BSTJ | [Link](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf) |
+|  | 1951 | **On Information and Sufficiency** | AMS | [Link](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-1/On-Information-and-Sufficiency/10.1214/aoms/1177729694.full) |
+|  | 2006 | **Information-theoretic upper and lower bounds for statistical estimation** | TIT | [Link](https://doi.org/10.1109/TIT.2005.864439) |
+|  | 2017 | **Exploring generalization in deep learning** | NIPS | [Link](https://arxiv.org/abs/1706.08947) |
+|  | 2018 | **Generalization error bounds using Wasserstein distances** | ITW | [Link](https://doi.org/10.1109/ITW.2018.8613445) |
+|  | 2023 | **Going deeper, generalizing better: An information-theoretic view for deep learning** | TNNLS | [Link](https://doi.org/10.1109/TNNLS.2023.3297113) |
+|  | 2023 | **Understanding the generalization ability of deep learning algorithms: a kernelized Rényi's entropy perspective** | IJCAI | [Link](https://www.ijcai.org/proceedings/2023/405) |
+|  | 2016 | **Controlling bias in adaptive data analysis using information theory** | AISTATS | [Link](https://proceedings.mlr.press/v51/russo16.html) |
+|  | 2017 | **Information-theoretic analysis of generalization capability of learning algorithms** | NIPS | [Link](https://arxiv.org/abs/1705.07809) |
+|  | 2020 | **Tightening mutual information-based bounds on generalization error** | JSAIT | [Link](https://arxiv.org/abs/1901.04609) |
+|  | 2022 | **Understanding generalization via leave-one-out conditional mutual information** | ISIT | [Link](https://arxiv.org/abs/2206.14800) |
+| **Noisy iterative algorithms ** |          |                                                              |                            |                                                              |
+|  | 2018 | **Generalization error bounds for noisy, iterative algorithms** | ISIT | [Link](https://arxiv.org/abs/1801.04295) |
+|  | 2019 | **Information-theoretic generalization bounds for SGLD via data-dependent estimates** | NIPS | [Link](https://arxiv.org/abs/1911.02151) |
+|  | 2021 | **Analyzing the generalization capability of SGLD using properties of Gaussian channels** | NIPS | [Link](https://proceedings.neurips.cc/paper/2021/hash/cb77649f5d53798edfa0ff40dae46322-Abstract.html) |
+|  | 2021 | **Time-independent generalization bounds for SGLD in non-convex settings** | NIPS | [Link](https://arxiv.org/abs/2111.12876) |
+|  | 2023 | **Time-independent information-theoretic generalization bounds for SGLD** | NIPS | [Link](https://arxiv.org/abs/2311.01046) |
+|  | 2021 | **Information-theoretic generalization bounds for stochastic gradient descent** | COLT | [Link](https://arxiv.org/abs/2102.00931) |
+|  | 2025 | **Generalization of noisy SGD in unbounded non-convex settings** | ICML | [Link](https://proceedings.mlr.press/v267/dadi25a.html) |
+| **Finer information measures** |          |                                                              |                            |                                                              |
+|  | 2020 | **Sharpened generalization bounds based on conditional mutual information and an application to noisy, iterative algorithms** | NIPS | [Link](https://arxiv.org/abs/2004.12983) |
+|  | 2023 | **Generalization error bounds for noisy, iterative algorithms via maximal leakage** | COLT | [Link](https://arxiv.org/abs/2302.14518) |
+| **Limitations and hybrid views** |          |                                                              |                            |                                                              |
+|  | 2023 | **Limitations of information-theoretic generalization bounds for gradient descent methods in stochastic convex optimization** | ALT | [Link](https://arxiv.org/abs/2212.13556) |
+|  | 2023 | **Information theoretic lower bounds for information theoretic upper bounds** | NIPS | [Link](https://arxiv.org/abs/2302.04925) |
+|  | 2021 | **Information-theoretic stability and generalization** | ITDS | [Link](https://doi.org/10.1017/9781108616799.011) |
+|  | 2023 | **Sample-conditioned hypothesis stability sharpens information-theoretic generalization bounds** | NIPS | [Link](https://arxiv.org/abs/2310.20102) |
+
+## PAC-Bayes Analysis <span id="333-">
+| Category | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            |
+| ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:| ---- |
+|  | 1998 | **Some PAC-Bayesian Theorems** | COLT | [Link](https://dl.acm.org/doi/10.1145/279943.279989) |
+|  | 1999 | **PAC-Bayesian Model Averaging** | COLT | [Link](https://dl.acm.org/doi/10.1145/307400.307435) |
+|  | 2002 | **PAC-Bayesian generalisation error bounds for Gaussian process classification** | JMLR | [Link](https://jmlr.org/papers/v3/seeger02a.html) |
+|  | 2007 | **PAC-Bayesian supervised classification: the thermodynamics of statistical learning** | Arxiv | [Link](https://arxiv.org/abs/0712.0248) |
+|  | 2012 | **PAC-Bayes bounds with data dependent priors** | JMLR | [Link](https://jmlr.org/papers/v13/parrado12a.html) |
+|  | 2020 | **PAC-Bayes learning bounds for sample-dependent priors** | NIPS | [Link](https://proceedings.neurips.cc/paper_files/paper/2020/hash/2e85d72295b67c5b649290dfbf019285-Abstract.html) |
+|  | 2017 | **Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data** | UAI | [Link](https://arxiv.org/abs/1703.11008) |
+|  | 2006 | **PAC-Bayes bounds for the risk of the majority vote and the variance of the Gibbs classifier** | NIPS | [Link](https://papers.neurips.cc/paper/2959-pac-bayes-bounds-for-the-risk-of-the-majority-vote-and-the-variance-of-the-gibbs-classifier) |
+|  | 2015 | **Risk bounds for the majority vote: From a PAC-Bayesian analysis to a learning algorithm** | JMLR | [Link](https://jmlr.org/papers/v16/germain15a.html) |
+|  | 2021 | **Learning stochastic majority votes by minimizing a PAC-Bayes generalization bound** | NIPS | [Link](https://arxiv.org/abs/2106.12535) |
+| **Randomized learning ** |          |                                                              |                            |                                                              |
+|  | 2017 | **A PAC-Bayesian analysis of randomized learning with application to stochastic gradient descent** | NIPS | [Link](https://arxiv.org/abs/1709.06617) |
+|  | 2018 | **PAC-Bayes bounds for stable algorithms with instance-dependent priors** | NIPS | [Link](https://arxiv.org/abs/1806.06827) |
+| **Data-dependent ** |          |                                                              |                            |                                                              |
+|  | 2018 | **Data-dependent PAC-Bayes priors via differential privacy** | NIPS | [Link](https://arxiv.org/abs/1802.09583) |
+|  | 2018 | **Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors** | ICML | [Link](https://arxiv.org/abs/1712.09376) |
+| | 2023 | **Toward better PAC-bayes bounds for uniformly stable algorithms** | NIPS | [Link](https://openreview.net/pdf?id=F6j16Qr6Vk) |
+| | 2025 | **PAC--Bayes guarantees for data-adaptive pairwise learning** | Entropy | [Link](https://www.mdpi.com/1099-4300/27/8/845) |
+| **Gradient methods ** |          |                                                              |                            |                                                              |
+|  | 2022 | **Generalization bounds for gradient methods via discrete and continuous prior** | NIPS | [Link](https://arxiv.org/abs/2205.13799) |
+|  | 2025 | **Generalisation under gradient descent via deterministic PAC-Bayes** | ALT | [Link](https://proceedings.mlr.press/v272/clerico25a.html) |
+|  | 2020 | **Normalized flat minima: Exploring scale invariant definition of flat minima for neural networks using PAC-Bayesian analysis** | ICML | [Link](https://proceedings.mlr.press/v119/tsuzuku20a.html) |
+
+## Algorithm-Dependent Complexity <span id="444-">
+| Category | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            |
+| ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:| ---- |
+|  | 2019 | **Uniform convergence may be unable to explain generalization in deep learning** | NIPS | [Link](https://arxiv.org/abs/1902.04742) |
+|  | 2018 | **Uniform convergence of gradients for non-convex learning and optimization** | NIPS | [Link](https://arxiv.org/abs/1810.11059) |
+|  | 2020 | **In defense of uniform convergence: Generalization via derandomization with an application to interpolating predictors** | ICML | [Link](https://proceedings.mlr.press/v119/negrea20a.html) |
+|  | 2023 | **Fantastic generalization measures are nowhere to be found** | Arxiv | [Link](https://arxiv.org/abs/2309.13658) |
+| **Compression** |          |                                                              |                            |                                                              |
+|  | 2018 | **Stronger generalization bounds for deep nets via a compression approach** | ICML | [Link](https://arxiv.org/abs/1802.05296) |
+| **Localized and algorithm-dependent complexity** |          |                                                              |                            |                                                              |
+|  | 2022 | **Generalization bounds for stochastic gradient descent via localized $\varepsilon$-covers** | NIPS | [Link](https://arxiv.org/abs/2209.08951) |
+|  | 2023 | **Generalization guarantees via algorithm-dependent Rademacher complexity** | COLT | [Link](https://proceedings.mlr.press/v195/sachs23a.html) |
+|  | 2024 | **Uniform generalization bounds on data-dependent hypothesis sets via PAC-Bayesian theory on random sets** | JMLR | [Link](https://arxiv.org/abs/2404.17442) |
+| **Fractal and geometric complexity** |          |                                                              |                            |                                                              |
+|  | 2020 | **Hausdorff dimension, heavy tails, and generalization in neural networks** | NIPS | [Link](https://arxiv.org/abs/2006.09313) |
+|  | 2021 | **Fractal structure and generalization properties of stochastic optimization algorithms** | NIPS | [Link](https://arxiv.org/abs/2106.04881) |
+|  | 2021 | **Intrinsic dimension, persistent homology and generalization in neural networks** | NIPS | [Link](https://arxiv.org/abs/2111.13171) |
+|  | 2021 | **Heavy tails in SGD and compressibility of overparametrized neural networks** | NIPS | [Link](https://arxiv.org/abs/2106.03795) |
+|  | 2022 | **Generalization bounds using lower tail exponents in stochastic optimizers** | ICML | [Link](https://arxiv.org/abs/2108.00781) |
+|  | 2023 | **Generalization bounds using data-dependent fractal dimensions** | ICML | [Link](https://proceedings.mlr.press/v202/dupuis23a.html) |
+| **Boundary examples** |          |                                                              |                            |                                                              |
+|  | 2024 | **Convex SGD: Generalization without early stopping** | Arxiv | [Link](https://arxiv.org/abs/2401.04067) |
+|  | 2016 | **Generalization of ERM in stochastic convex optimization: The dimension strikes back** | NIPS | [Link](https://arxiv.org/abs/1608.04414) |
+|  | 2024 | **The dimension strikes back with gradients: Generalization of gradient methods in stochastic convex optimization** | Arxiv | [Link](https://arxiv.org/abs/2401.12058) |
+|  | 2024 | **Towards sharper risk bounds for minimax problems** | IJCAI | [Link](https://www.ijcai.org/proceedings/2024/630) |

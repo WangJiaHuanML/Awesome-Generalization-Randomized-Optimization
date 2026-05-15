@@ -213,7 +213,7 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2018 | **Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors** | ICML | [Link](https://arxiv.org/abs/1712.09376) |
 | | 2023 | **Toward better PAC-bayes bounds for uniformly stable algorithms** | NIPS | [Link](https://openreview.net/pdf?id=F6j16Qr6Vk) |
 | | 2025 | **PAC--Bayes guarantees for data-adaptive pairwise learning** | Entropy | [Link](https://www.mdpi.com/1099-4300/27/8/845) |
-| **Gradient methods ** |          |                                                              |                            |                                                              |
+| **Gradient methods** |          |                                                              |                            |                                                              |
 |  | 2022 | **Generalization bounds for gradient methods via discrete and continuous prior** | NIPS | [Link](https://arxiv.org/abs/2205.13799) |
 |  | 2025 | **Generalisation under gradient descent via deterministic PAC-Bayes** | ALT | [Link](https://proceedings.mlr.press/v272/clerico25a.html) |
 |  | 2020 | **Normalized flat minima: Exploring scale invariant definition of flat minima for neural networks using PAC-Bayesian analysis** | ICML | [Link](https://proceedings.mlr.press/v119/tsuzuku20a.html) |

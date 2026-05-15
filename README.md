@@ -51,7 +51,7 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2021 | **Stability and deviation optimal risk bounds with convergence rate $O(1/n)$** | NIPS | [Link](https://openreview.net/forum?id=yaxePRTOhqk) |
 |  | 2022 | **Stability of SGD: Tightness Analysis and Improved Bounds** | UAI | [Link](https://proceedings.mlr.press/v180/zhang22b.html) |
 |  | 2024 | **High-probability generalization bounds for pointwise uniformly stable algorithms** | ACHA | [Link](https://doi.org/10.1016/j.acha.2024.101632) |
-|  | 2025 | **Stability and Sharper Risk Bounds with Convergence Rate {$\tilde{O}(1/n^2)$}** | NIPS | [Link](https://arxiv.org/abs/2410.09766) |
+|  | 2025 | **Stability and Sharper Risk Bounds with Convergence Rate $\tilde{O}(1/n^2)$** | NIPS | [Link](https://arxiv.org/abs/2410.09766) |
 |  | 2017 | **Generalization Error Bounds for Optimization Algorithms via Stability** | AAAI | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/10919) |
 |  | 2018 | **Data-dependent Stability of Stochastic Gradient Descent** | ICML | [Link](https://proceedings.mlr.press/v80/kuzborskij18a.html) |
 |  | 2020 | **Stability of Stochastic Gradient Descent on Nonsmooth Convex Losses** | NIPS | [Link](https://proceedings.neurips.cc/paper/2020/hash/2e2c4bf7ceaa4712a72dd5ee136dc9a8-Abstract.html) |
@@ -90,7 +90,7 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2024 | **Stability and Generalization of Adversarial Training for Shallow Neural Networks with Smooth Activation** | NIPS | [Link](https://proceedings.neurips.cc/paper_files/paper/2024/hash/1d35a777e932235b115645d5141e0342-Abstract-Conference.html) |
 |          |          |                                                              |                            |                                                              |
 |  | 2023 | **Beyond Lipschitz: Sharp Generalization and Excess Risk Bounds for Full-Batch GD** | ICLR | [Link](https://arxiv.org/abs/2204.12446) |
-|  | 2025 | **Minibatch and local {SGD}: Algorithmic stability and linear speedup in generalization** | ACHA | [Link](https://doi.org/10.1016/j.acha.2025.101795) |
+|  | 2025 | **Minibatch and local SGD: Algorithmic stability and linear speedup in generalization** | ACHA | [Link](https://doi.org/10.1016/j.acha.2025.101795) |
 |  | 2021 | **Algorithmic Stability and Generalization of An Unsupervised Feature Selection Algorithm** | NIPS | [Link](https://proceedings.neurips.cc/paper/2021/hash/a546203962b88771bb06faf8d6ec065e-Abstract.html) |
 |  | 2021 | **Stability and Generalization for Randomized Coordinate Descent** | IJCAI | [Link](https://www.ijcai.org/proceedings/2021/427) |
 |  | 2022 | **Stability and Generalization for Markov Chain Stochastic Gradient Methods** | NIPS | [Link](https://arxiv.org/abs/2209.08005) |
@@ -101,7 +101,7 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2025 | **Stability and generalization for stochastic (compositional) optimizations** | IJCAI | [Link](https://www.ijcai.org/proceedings/2025/672) |
 |  | 2022 | **Stability Based Generalization Bounds for Exponential Family Langevin Dynamics** | ICML | [Link](https://proceedings.mlr.press/v162/banerjee22a.html) |
 | **Minimax** |          |                                                              |                            |                                                              |
-|  | 2021 | **Train simultaneously, generalize better: {S}tability of gradient-based minimax learners** | ICML | [Link](https://arxiv.org/abs/2010.12561) |
+|  | 2021 | **Train simultaneously, generalize better: Stability of gradient-based minimax learners** | ICML | [Link](https://arxiv.org/abs/2010.12561) |
 |  | 2021 | **Stability and Generalization of Stochastic Gradient Methods for Minimax Problems** | ICML | [Link](https://proceedings.mlr.press/v139/lei21b.html) |
 |  | 2021 | **Generalization bounds for stochastic saddle point problems** | AISTATS | [Link](https://proceedings.mlr.press/v130/zhang21a.html) |
 |  | 2022 | **What is a Good Metric to Study Generalization of Minimax Learners?** | NIPS | [Link](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f9b8853ea81731f9bfc11820b064de96-Abstract-Conference.html) |
@@ -175,7 +175,7 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2017 | **Information-theoretic analysis of generalization capability of learning algorithms** | NIPS | [Link](https://arxiv.org/abs/1705.07809) |
 |  | 2020 | **Tightening mutual information-based bounds on generalization error** | JSAIT | [Link](https://arxiv.org/abs/1901.04609) |
 |  | 2022 | **Understanding generalization via leave-one-out conditional mutual information** | ISIT | [Link](https://arxiv.org/abs/2206.14800) |
-| **Noisy iterative algorithms ** |          |                                                              |                            |                                                              |
+| **Noisy iterative algorithms** |          |                                                              |                            |                                                              |
 |  | 2018 | **Generalization error bounds for noisy, iterative algorithms** | ISIT | [Link](https://arxiv.org/abs/1801.04295) |
 |  | 2019 | **Information-theoretic generalization bounds for SGLD via data-dependent estimates** | NIPS | [Link](https://arxiv.org/abs/1911.02151) |
 |  | 2021 | **Analyzing the generalization capability of SGLD using properties of Gaussian channels** | NIPS | [Link](https://proceedings.neurips.cc/paper/2021/hash/cb77649f5d53798edfa0ff40dae46322-Abstract.html) |
@@ -205,10 +205,10 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2006 | **PAC-Bayes bounds for the risk of the majority vote and the variance of the Gibbs classifier** | NIPS | [Link](https://papers.neurips.cc/paper/2959-pac-bayes-bounds-for-the-risk-of-the-majority-vote-and-the-variance-of-the-gibbs-classifier) |
 |  | 2015 | **Risk bounds for the majority vote: From a PAC-Bayesian analysis to a learning algorithm** | JMLR | [Link](https://jmlr.org/papers/v16/germain15a.html) |
 |  | 2021 | **Learning stochastic majority votes by minimizing a PAC-Bayes generalization bound** | NIPS | [Link](https://arxiv.org/abs/2106.12535) |
-| **Randomized learning ** |          |                                                              |                            |                                                              |
+| **Randomized learning** |          |                                                              |                            |                                                              |
 |  | 2017 | **A PAC-Bayesian analysis of randomized learning with application to stochastic gradient descent** | NIPS | [Link](https://arxiv.org/abs/1709.06617) |
 |  | 2018 | **PAC-Bayes bounds for stable algorithms with instance-dependent priors** | NIPS | [Link](https://arxiv.org/abs/1806.06827) |
-| **Data-dependent ** |          |                                                              |                            |                                                              |
+| **Data-dependent** |          |                                                              |                            |                                                              |
 |  | 2018 | **Data-dependent PAC-Bayes priors via differential privacy** | NIPS | [Link](https://arxiv.org/abs/1802.09583) |
 |  | 2018 | **Entropy-SGD optimizes the prior of a PAC-Bayes bound: Generalization properties of Entropy-SGD and data-dependent priors** | ICML | [Link](https://arxiv.org/abs/1712.09376) |
 | | 2023 | **Toward better PAC-bayes bounds for uniformly stable algorithms** | NIPS | [Link](https://openreview.net/pdf?id=F6j16Qr6Vk) |
@@ -243,3 +243,4 @@ A collection of papers and datasets for the Generalization in Randomized Optimiz
 |  | 2016 | **Generalization of ERM in stochastic convex optimization: The dimension strikes back** | NIPS | [Link](https://arxiv.org/abs/1608.04414) |
 |  | 2024 | **The dimension strikes back with gradients: Generalization of gradient methods in stochastic convex optimization** | Arxiv | [Link](https://arxiv.org/abs/2401.12058) |
 |  | 2024 | **Towards sharper risk bounds for minimax problems** | IJCAI | [Link](https://www.ijcai.org/proceedings/2024/630) |
+| |  |  |  |  |
